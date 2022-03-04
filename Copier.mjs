@@ -3,8 +3,20 @@ class Copier {
     this.val = !!val ? val : undefined;
   }
 
-  get copy() {
-    return this.val;
+  get getVal() {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(this.val);
+      }, 1000);
+    });
+  }
+
+  get delete() {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(new Error('Cannot delete!'));
+      }, 1000);
+    });
   }
 }
 
