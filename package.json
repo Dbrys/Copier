@@ -1,0 +1,21 @@
+{
+  "name": "copier",
+  "version": "1.0.0",
+  "description": "Coding Challenge",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dbrys/Copier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dbrys/Copier/issues"
+  },
+  "homepage": "https://github.com/Dbrys/Copier#readme"
+}
